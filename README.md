@@ -1,0 +1,2 @@
+# online-constitution-management-system
+online constitution management system, Has laws and penal codes to search for offences and sentences. A system to store penal codes if one wants to know the sentences of a certain crime they can search and find login as admin to post penal codes and sentences, from the the front end one just searches for the penal codes and likely sentences this is a working progress an up to-date version of this app will be out soon.
