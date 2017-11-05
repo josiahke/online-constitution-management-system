@@ -1,0 +1,24 @@
+### installation
+
+# web browser - firefox 5.0.1
+
+1. open the support software folder >> double click to launch installer for firefox 5.0.1 (for win 7 right click on the installer and run as admin)
+2. follow steps to finish installation
+
+
+
+# local server - Wamp server
+
+1. install wamp server 2.0a from the support software folder >> follow the instructions >> enable you apache server from the firewall
+2. start wamp server from the windows menu
+3. it will show on the system tray
+4. click on the server icon >> select apache menu >> select modules menu >> look for rewrite_mode module and click on it (to activate it)
+
+
+# website
+
+1. copy the website into www directory on the wamp insattion folder (i.e C:\wamp\www\ ) NB: maintain file structure of the folder
+
+2. open you web browser (NB make sure you server is runing) >> type in http://localhost/phpmyadmin/ >> select the import hyperlink >> select the database file (from C:\wamp\www\onlinejustice\db\elaw.sql) >> click go to upload the database >> check a message and see whether the action was successful
+ 
+2. open you web browser (NB make sure you server is runing) >> type in http://localhost/onlinejustice/ to access the website
