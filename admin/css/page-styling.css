@@ -1,0 +1,61 @@
+@charset "utf-8";
+body {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat;
+	color: #D4FFFF;
+}
+.logo {
+	float: left;
+	height: 220px;
+	width: 400px;
+}
+.tagline {
+	text-align: center;
+	float: right;
+	height: 220px;
+	width: 550px;
+}
+input[type="text"], input[type="password"] ,input[type="email"], select {
+	height: 30px;
+	width: 280px;
+	border: solid 2px #ccc;
+}
+input[type="submit"]
+		{
+			 padding: 5px 14px; border: 1px solid #ccc; background: #fff;
+		}
+		a {
+	font-size: 14px;
+	color: #FFDF00;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FF00AA;
+}
+a:hover {
+	text-decoration: underline;
+	color: #D49FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #D4FF00;
+}
+
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+	}
